@@ -1,9 +1,9 @@
 # php openssl 加密、签名
 
-***
 
 
-> 对称加密 
+
+### 对称加密 
 
 ~~~
 $token='需要加密的内容';	// array | string
@@ -17,7 +17,8 @@ string|array Rsa::decode($crypted,$key); //解密
 
 
 
-> 非对称加密 
+
+### 非对称加密 
 
 ~~~
 $token='需要加密的内容';	// array | string
