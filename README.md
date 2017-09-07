@@ -29,4 +29,4 @@ string|array Rsa::ssl_decode($crypted); //解密
 ~~~
 
 ---
-[](https://github.com/wschat/openssl)
+[https://github.com/wschat/openssl](https://github.com/wschat/openssl)
