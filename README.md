@@ -18,7 +18,7 @@ string|array Rsa::decode($crypted,$key); //解密
 
 
 
->> 非对称加密 
+> 非对称加密 
 
 ~~~
 $token='需要加密的内容';	// array | string
@@ -30,7 +30,7 @@ string|array Rsa::ssl_decode($crypted); //解密
 ~~~
 
 
->>> 签名 
+> 签名 
 
 ~~~
 $token='需要签名的内容';	// array | string
