@@ -7,7 +7,6 @@ class Rsa{
 		'rsa_private_key_pkcs8'=>'./pem/rsa_private_key_pkcs8.pem',
 		'rsa_public_key'=>'./pem/rsa_public_key.pem',
 	];
-
 	/**
 	 * openssl 对称加密
 	 * @param  array|string 	$token 	加密内容
