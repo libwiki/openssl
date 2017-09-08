@@ -13,9 +13,9 @@ $token2=[
 ];
 $key1='This is a key1';
 $key2='秘钥';
-$de=Rsa::encode($token1,$key2);
+$de=Rsa::sign_encode($token2);
 p($de);
-$rs=Rsa::decode($de,$key2);
+$rs=Rsa::sign_decode($token2,$de);
 p($rs);
 function p($arr=[]){
 	echo "<pre>";

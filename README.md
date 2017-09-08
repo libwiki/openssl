@@ -3,7 +3,7 @@
 
 
 
-### 对称加密 
+> 对称加密 
 
 ~~~
 $token='需要加密的内容';	// array | string
@@ -18,7 +18,7 @@ string|array Rsa::decode($crypted,$key); //解密
 
 
 
-### 非对称加密 
+>> 非对称加密 
 
 ~~~
 $token='需要加密的内容';	// array | string
@@ -26,6 +26,18 @@ $token='需要加密的内容';	// array | string
 string $crypted=Rsa::ssl_encode($token); //加密
 
 string|array Rsa::ssl_decode($crypted); //解密
+
+~~~
+
+
+>>> 签名 
+
+~~~
+$token='需要签名的内容';	// array | string
+
+string $crypted=Rsa::sign_encode($token); //私匙签名
+
+number Rsa::sign_decode($token,$signature); //公匙签名验证  (1：成功 | 0：失败 | -1：错误)
 
 ~~~
 
