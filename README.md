@@ -1,6 +1,8 @@
 # php openssl 加密、签名
 
 
+#### 注：需要 extension=php_openssl.dll 扩展
+
 
 
 > 对称加密 
